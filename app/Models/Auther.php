@@ -8,5 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class Auther extends Model
 {
     use HasFactory;
-    protected $fillable = ['name', 'image'];
+    protected $fillable = ['name', 'image','description'];
 }

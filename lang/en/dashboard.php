@@ -11,6 +11,8 @@ return [
     'dashboard' => 'dashboard',
     'logout' => 'logout',
     'authers' => 'Authers',
+    'description' => 'Description',
+    'image' => 'image',
 
     'create' => 'create',
     'add_new_user' => 'Add New User',
@@ -28,6 +30,7 @@ return [
     'all' => 'all',
     'edit_role' => 'Edit role',
     'edit_user' => 'Edit  User',
+    'edit_auther' => 'Edit Auther',
 
     'create_new_role' => 'Create New Role',
     'delete_message' => 'Are you sure want to delete?',

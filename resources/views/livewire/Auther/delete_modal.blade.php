@@ -1,4 +1,4 @@
- <div wire:ignore.self class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+ <div wire:ignore class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
      aria-labelledby="exampleModalLabel" aria-hidden="true">
      <div class="modal-dialog" role="document">
          <div class="modal-content">
@@ -14,7 +14,7 @@
              <div class="modal-footer">
                  <button type="button" class="btn btn-secondary close-btn"
                      data-dismiss="modal">{{ trans('dashboard.close') }}</button>
-                 <button type="button" wire:click.prevent="delete({{ $category->id }})"
+                 <button type="button" wire:click.prevent="delete({{ $auther->id }})"
                      class="btn btn-danger close-modal" data-dismiss="modal">{{ trans('dashboard.delete') }}</button>
              </div>
          </div>
